@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE73A081F5E78F4001BA20F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE73A071F5E78F4001BA20F /* AppDelegate.swift */; };
+		BFE73A0A1F5E78F4001BA20F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE73A091F5E78F4001BA20F /* ViewController.swift */; };
+		BFE73A0D1F5E78F4001BA20F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE73A0B1F5E78F4001BA20F /* Main.storyboard */; };
+		BFE73A0F1F5E78F4001BA20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE73A0E1F5E78F4001BA20F /* Assets.xcassets */; };
+		BFE73A121F5E78F4001BA20F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE73A101F5E78F4001BA20F /* LaunchScreen.storyboard */; };
+		BFE73A1D1F5E78F4001BA20F /* PSO2_KueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE73A1C1F5E78F4001BA20F /* PSO2_KueTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE73A191F5E78F4001BA20F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE739FC1F5E78F4001BA20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE73A031F5E78F4001BA20F;
+			remoteInfo = "PSO2 Kue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFE73A041F5E78F4001BA20F /* PSO2 Kue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSO2 Kue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE73A071F5E78F4001BA20F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFE73A091F5E78F4001BA20F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFE73A0C1F5E78F4001BA20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE73A0E1F5E78F4001BA20F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE73A111F5E78F4001BA20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFE73A131F5E78F4001BA20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE73A181F5E78F4001BA20F /* PSO2 KueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PSO2 KueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE73A1C1F5E78F4001BA20F /* PSO2_KueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSO2_KueTests.swift; sourceTree = "<group>"; };
+		BFE73A1E1F5E78F4001BA20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE73A011F5E78F4001BA20F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE73A151F5E78F4001BA20F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE739FB1F5E78F4001BA20F = {
+			isa = PBXGroup;
+			children = (
+				BFE73A061F5E78F4001BA20F /* PSO2 Kue */,
+				BFE73A1B1F5E78F4001BA20F /* PSO2 KueTests */,
+				BFE73A051F5E78F4001BA20F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE73A051F5E78F4001BA20F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE73A041F5E78F4001BA20F /* PSO2 Kue.app */,
+				BFE73A181F5E78F4001BA20F /* PSO2 KueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE73A061F5E78F4001BA20F /* PSO2 Kue */ = {
+			isa = PBXGroup;
+			children = (
+				BFE73A071F5E78F4001BA20F /* AppDelegate.swift */,
+				BFE73A091F5E78F4001BA20F /* ViewController.swift */,
+				BFE73A0B1F5E78F4001BA20F /* Main.storyboard */,
+				BFE73A0E1F5E78F4001BA20F /* Assets.xcassets */,
+				BFE73A101F5E78F4001BA20F /* LaunchScreen.storyboard */,
+				BFE73A131F5E78F4001BA20F /* Info.plist */,
+			);
+			path = "PSO2 Kue";
+			sourceTree = "<group>";
+		};
+		BFE73A1B1F5E78F4001BA20F /* PSO2 KueTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE73A1C1F5E78F4001BA20F /* PSO2_KueTests.swift */,
+				BFE73A1E1F5E78F4001BA20F /* Info.plist */,
+			);
+			path = "PSO2 KueTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE73A031F5E78F4001BA20F /* PSO2 Kue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE73A211F5E78F4001BA20F /* Build configuration list for PBXNativeTarget "PSO2 Kue" */;
+			buildPhases = (
+				BFE73A001F5E78F4001BA20F /* Sources */,
+				BFE73A011F5E78F4001BA20F /* Frameworks */,
+				BFE73A021F5E78F4001BA20F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PSO2 Kue";
+			productName = "PSO2 Kue";
+			productReference = BFE73A041F5E78F4001BA20F /* PSO2 Kue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE73A171F5E78F4001BA20F /* PSO2 KueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE73A241F5E78F4001BA20F /* Build configuration list for PBXNativeTarget "PSO2 KueTests" */;
+			buildPhases = (
+				BFE73A141F5E78F4001BA20F /* Sources */,
+				BFE73A151F5E78F4001BA20F /* Frameworks */,
+				BFE73A161F5E78F4001BA20F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE73A1A1F5E78F4001BA20F /* PBXTargetDependency */,
+			);
+			name = "PSO2 KueTests";
+			productName = "PSO2 KueTests";
+			productReference = BFE73A181F5E78F4001BA20F /* PSO2 KueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE739FC1F5E78F4001BA20F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Frostlight;
+				TargetAttributes = {
+					BFE73A031F5E78F4001BA20F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M822S4TQNS;
+						ProvisioningStyle = Automatic;
+					};
+					BFE73A171F5E78F4001BA20F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M822S4TQNS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFE73A031F5E78F4001BA20F;
+					};
+				};
+			};
+			buildConfigurationList = BFE739FF1F5E78F4001BA20F /* Build configuration list for PBXProject "PSO2 Kue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE739FB1F5E78F4001BA20F;
+			productRefGroup = BFE73A051F5E78F4001BA20F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE73A031F5E78F4001BA20F /* PSO2 Kue */,
+				BFE73A171F5E78F4001BA20F /* PSO2 KueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE73A021F5E78F4001BA20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE73A121F5E78F4001BA20F /* LaunchScreen.storyboard in Resources */,
+				BFE73A0F1F5E78F4001BA20F /* Assets.xcassets in Resources */,
+				BFE73A0D1F5E78F4001BA20F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE73A161F5E78F4001BA20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE73A001F5E78F4001BA20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE73A0A1F5E78F4001BA20F /* ViewController.swift in Sources */,
+				BFE73A081F5E78F4001BA20F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE73A141F5E78F4001BA20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE73A1D1F5E78F4001BA20F /* PSO2_KueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE73A1A1F5E78F4001BA20F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE73A031F5E78F4001BA20F /* PSO2 Kue */;
+			targetProxy = BFE73A191F5E78F4001BA20F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE73A0B1F5E78F4001BA20F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE73A0C1F5E78F4001BA20F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE73A101F5E78F4001BA20F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE73A111F5E78F4001BA20F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE73A1F1F5E78F4001BA20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE73A201F5E78F4001BA20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE73A221F5E78F4001BA20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M822S4TQNS;
+				INFOPLIST_FILE = "PSO2 Kue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frostlight.PSO2-Kue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFE73A231F5E78F4001BA20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M822S4TQNS;
+				INFOPLIST_FILE = "PSO2 Kue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frostlight.PSO2-Kue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BFE73A251F5E78F4001BA20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M822S4TQNS;
+				INFOPLIST_FILE = "PSO2 KueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frostlight.PSO2-KueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSO2 Kue.app/PSO2 Kue";
+			};
+			name = Debug;
+		};
+		BFE73A261F5E78F4001BA20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M822S4TQNS;
+				INFOPLIST_FILE = "PSO2 KueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frostlight.PSO2-KueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSO2 Kue.app/PSO2 Kue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE739FF1F5E78F4001BA20F /* Build configuration list for PBXProject "PSO2 Kue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE73A1F1F5E78F4001BA20F /* Debug */,
+				BFE73A201F5E78F4001BA20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE73A211F5E78F4001BA20F /* Build configuration list for PBXNativeTarget "PSO2 Kue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE73A221F5E78F4001BA20F /* Debug */,
+				BFE73A231F5E78F4001BA20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFE73A241F5E78F4001BA20F /* Build configuration list for PBXNativeTarget "PSO2 KueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE73A251F5E78F4001BA20F /* Debug */,
+				BFE73A261F5E78F4001BA20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE739FC1F5E78F4001BA20F /* Project object */;
+}
